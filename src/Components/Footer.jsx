@@ -16,12 +16,12 @@ const Footer = () => {
                 </div>
 
                 {/* Enlaces */}
-                <nav className="flex flex-col md:flex-row md:space-x-6 items-center text-sm text-gray-400">
+                <nav className="grid grid-cols-5 md:flex md:flex-row md:space-x-6 items-center text-sm text-gray-400 gap-1">
                     <a href="#" className="hover:text-green-400">Inicio</a>
-                    <a href="#" className="hover:text-green-400">Sobre nosotros</a>
+                    <a href="#" className="hover:text-green-400">Somos</a>
                     <a href="#" className="hover:text-green-400">Servicios</a>
                     <a href="#" className="hover:text-green-400">Noticias</a>
-                    <a href="#" className="hover:text-green-400">Contáctenos</a>
+                    <a href="/contact" className="hover:text-green-400">Contáctenos</a>
                 </nav>
 
                 {/* Redes sociales */}
@@ -30,7 +30,14 @@ const Footer = () => {
                     <FaInstagram className="hover:text-green-400" />
                     <FaXTwitter className="hover:text-green-400" />
                     <FaYoutube className="hover:text-green-400" />
-                    <FaWhatsapp className="hover:text-green-400" />
+                    <a
+                        href="https://wa.me/50687905876"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-green-400"
+                    >
+                        <FaWhatsapp />
+                    </a>
                 </div>
             </div>
 

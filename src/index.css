@@ -3,3 +3,20 @@
 @tailwind utilities;
 
 @import "tailwindcss";
+
+.ocultar-scroll {
+    -ms-overflow-style: none;
+    /* IE y Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.ocultar-scroll::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari y Opera */
+}
+
+.arrastrable {
+    cursor: grab;
+    touch-action: pan-x;
+}

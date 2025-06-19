@@ -1,0 +1,20 @@
+[
+    {
+        "titulo": "Financial Planning",
+        "descripcion": "Offering tailored financial advice for clients, covering retirement planning.",
+        "imagen": "/Imagen/business-man-working-office-desktop.jpg",
+        "fondo": "bg-gray-100"
+    },
+    {
+        "titulo": "Portfolio Management",
+        "descripcion": "Helps individuals and institutions manage their investment portfolios.",
+        "imagen": "/Imagen/top-view-finances-elements-arrangement.jpg",
+        "fondo": "bg-[#0D2A22] text-white"
+    },
+    {
+        "titulo": "Wealth Management",
+        "descripcion": "Managing all aspects of a client's wealth, including investments, taxes, etc",
+        "imagen": "/Imagen/business-people-working-with-ipad-high-angle.jpg",
+        "fondo": "bg-gray-100"
+    }
+]

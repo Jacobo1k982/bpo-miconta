@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="text-center py-12 px-4 md:px-6">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-4">Bussines Process Outsourcing MiConta</h2>
                 <p className="text-gray-300 mb-8 text-sm md:text-base">
-                    Mantente al día con nuestro último artículo, consejos y trucos
+                    Simplificamos tu contabilidad para que te enfoques en crecer.
                 </p>
 
                 {/* Formulario responsive */}
@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
 
             {/* Gradiente inferior */}
-            <div className="h-16 md:h-24 w-full bg-gradient-to-t from-green-800 to-transparent" />
+            <div className="h-16 md:h-24 w-full bg-gradient-to-t from-green-null to-transparent" />
         </div>
     );
 };
