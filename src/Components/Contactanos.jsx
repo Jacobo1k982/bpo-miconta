@@ -12,7 +12,7 @@ const Contactanos = () => {
         const asunto = e.target.asunto.value;
         const mensaje = e.target.mensaje.value;
 
-        const telefono = "50612345678"; // ← tu número real
+        const telefono = "50687905876"; // ← tu número real
         const texto = `Hola, soy *${nombre}*.\nMi correo es: ${email}\nAsunto: ${asunto}\nMensaje: ${mensaje}`;
         const url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
 
