@@ -1,19 +1,19 @@
 [
     {
-        "titulo": "Financial Planning",
-        "descripcion": "Offering tailored financial advice for clients, covering retirement planning.",
+        "titulo": "Planificación financiera",
+        "descripcion": "Ofreciendo asesoramiento financiero personalizado a nuestros clientes, abarcando la planificación de la jubilación.",
         "imagen": "/Imagen/business-man-working-office-desktop.jpg",
         "fondo": "bg-gray-100"
     },
     {
-        "titulo": "Portfolio Management",
+        "titulo": "Gestión de cartera",
         "descripcion": "Helps individuals and institutions manage their investment portfolios.",
         "imagen": "/Imagen/top-view-finances-elements-arrangement.jpg",
         "fondo": "bg-[#0D2A22] text-white"
     },
     {
-        "titulo": "Wealth Management",
-        "descripcion": "Managing all aspects of a client's wealth, including investments, taxes, etc",
+        "titulo": "Gestión patrimonial",
+        "descripcion": "Gestionar todos los aspectos del patrimonio de un cliente, incluidas inversiones, impuestos, etc.",
         "imagen": "/Imagen/business-people-working-with-ipad-high-angle.jpg",
         "fondo": "bg-gray-100"
     }

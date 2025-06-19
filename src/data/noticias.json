@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titulo": "COSTA RICA AVANZA 2025",
+        "resumen": "COSTA RICA AVANZA HACIA UNA MAYOR RESILIENCIA CLIMÁTICA Y FINANCIERA CON EL APOYO QUE GLOBAL SHIELD OFRECERÁ AL PAÍS",
+        "imagen": "/ImagenNoticias/foto-cp-12-jun2025.png",
+        "fecha": "Junio 12, 2025",
+        "pdf": "/ImagenNoticias/CP-12-06-2025.pdf"
+    },
+    {
+        "id": 2,
+        "titulo": "COSTA RICA REFUERZA SU ESTABILIDAD",
+        "resumen": "COSTA RICA REFUERZA SU ESTABILIDAD ECONÓMICA CON LA APROBACIÓN DE LA LÍNEA DE CRÉDITO FLEXIBLE DEL FMI",
+        "imagen": "/ImagenNoticias/foto-cp362025.png",
+        "fecha": "Junio 02, 2025",
+        "pdf": "/ImagenNoticias/CP36-2025.pdf"
+    },
+    {
+        "id": 3,
+        "titulo": "INGRESOS SUPERAN GASTO",
+        "resumen": "INGRESOS SUPERAN GASTO PRIMARIO Y DEUDA SE MANTIENE POR DEBAJO DEL CIERRE DE 2024",
+        "imagen": "/ImagenNoticias/Foto-cp-35-2025.png",
+        "fecha": "Junio 02, 2025",
+        "pdf": "/ImagenNoticias/CP352025.pdf"
+    }
+]

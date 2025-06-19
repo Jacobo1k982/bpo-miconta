@@ -7,6 +7,9 @@ import Contactanos from "../Components/Contactanos.jsx";
 // 👇 Lazy import
 const Hero = lazy(() => import("../Components/Hero.jsx"));
 const CarouselServicios = lazy(() => import("../Components/CarouselServicios.jsx"));
+const Noticias = lazy(() => import("../Components/Noticias.jsx"));
+const NoticiaDetalle = lazy(() => import("../page/NoticiaDetalle.jsx"));
+
 
 
 const Loader = () => (
@@ -26,9 +29,12 @@ const AppRoutes = () => {
                     <Route path="/" element={
                         <>
                             <Hero />
+                            <Noticias />
                             <CarouselServicios />
                         </>
                     } />
+                    <Route path="/noticias" element={<Noticias />} />
+                    <Route path="/noticias/:id" element={<NoticiaDetalle />} />
                     <Route path="/hero" element={<Hero />} />
                     <Route path="/contact" element={<Contactanos />} />
                 </Routes>
