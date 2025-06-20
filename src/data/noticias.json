@@ -1,24 +1,25 @@
 [
     {
         "id": 1,
-        "titulo": "COSTA RICA AVANZA 2025",
-        "resumen": "COSTA RICA AVANZA HACIA UNA MAYOR RESILIENCIA CLIMÁTICA Y FINANCIERA CON EL APOYO QUE GLOBAL SHIELD OFRECERÁ AL PAÍS",
+        "titulo": "Costa Rica avanza 2025",
+        "resumen": "Costa Rica avanza hacia una mayor resiliencia climática y financiera con el apoyo que Global Shield ofrecerá al país",
         "imagen": "/ImagenNoticias/foto-cp-12-jun2025.png",
         "fecha": "Junio 12, 2025",
         "pdf": "/ImagenNoticias/CP-12-06-2025.pdf"
     },
     {
         "id": 2,
-        "titulo": "COSTA RICA REFUERZA SU ESTABILIDAD",
-        "resumen": "COSTA RICA REFUERZA SU ESTABILIDAD ECONÓMICA CON LA APROBACIÓN DE LA LÍNEA DE CRÉDITO FLEXIBLE DEL FMI",
+        "titulo": "Costa Rica refuerza su estabilidad ",
+        "resumen": "Costa Rica refuerza su estabilidad económica con la aprobación de la línea de crédito flexible del FMI",
         "imagen": "/ImagenNoticias/foto-cp362025.png",
         "fecha": "Junio 02, 2025",
         "pdf": "/ImagenNoticias/CP36-2025.pdf"
     },
     {
         "id": 3,
-        "titulo": "INGRESOS SUPERAN GASTO",
-        "resumen": "INGRESOS SUPERAN GASTO PRIMARIO Y DEUDA SE MANTIENE POR DEBAJO DEL CIERRE DE 2024",
+        "titulo": "Ingresos superan gastos",
+        "resumen": "Ingresos superan gastos primario y deuda se mantienen por debajo del cierre de 2024",
+        "contenido": "",
         "imagen": "/ImagenNoticias/Foto-cp-35-2025.png",
         "fecha": "Junio 02, 2025",
         "pdf": "/ImagenNoticias/CP352025.pdf"
@@ -27,10 +28,190 @@
         "id": 4,
         "titulo": "Tribu-CR toma el control",
         "resumen": "Así será el cambio de ATV a la nueva plataforma de Hacienda",
-        "contenido": "El Ministerio de Hacienda de Costa Rica ha anunciado un cambio significativo en la gestión tributaria del país: a partir del 4 de agosto de 2025, entrará en funcionamiento Tribu-CR, la nueva plataforma digital que reemplazará por completo a los sistemas actuales ATV (Administración Tributaria Virtual) y Trámite Virtual (Travi).",
+        "contenido": [
+            {
+                "tipo": "parrafo",
+                "texto": "El Ministerio de Hacienda de Costa Rica ha anunciado un cambio significativo en la gestión tributaria del país: a partir del 4 de agosto de 2025, entrará en funcionamiento Tribu-CR, la nueva plataforma digital que reemplazará por completo a los sistemas actuales ATV (Administración Tributaria Virtual) y Trámite Virtual (Travi)."
+            },
+            {    
+                "tipo": "parrafo",
+                "texto": "Este cambio forma parte de una estrategia de transformación digital que busca ofrecer a los contribuyentes una experiencia más moderna, segura y eficiente en la gestión de sus obligaciones fiscales."
+            },
+            {
+                "tipo": "subtitulo", 
+                "texto": "1. ¿Qué es Tribu-CR?"             
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Tribu-CR es la nueva herramienta tecnológica desarrollada por el Ministerio de Hacienda para centralizar y simplificar la interacción de los contribuyentes con la administración tributaria. Desde esta plataforma será posible:"
+            },
+            {
+                "tipo": "lista",
+                "items": [
+                    "Presentar declaraciones de impuestos.",
+                    "Realizar pagos tributarios.",
+                    "Consultar saldos y movimientos.",
+                    "Recibir notificaciones oficiales.",
+                    "Solicitar devoluciones (en etapas posteriores)."
+                ]
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Con esta solución, se busca crear una experiencia digital unificada que mejore la eficiencia en los trámites fiscales y aumente la transparencia del sistema."
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "2. ¿Qué pasará con ATV y Travi?"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "A partir de la fecha de entrada en vigor de Tribu-CR, el 4 de agosto de 2025, tanto ATV como Travi quedarán fuera de funcionamiento. Todos los trámites que antes se realizaban en esas plataformas se trasladarán al nuevo sistema, lo que exige que contribuyentes y asesores fiscales se preparen para la migración."
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "3. Declaraciones prellenadas: ¿cómo funcionarán?"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Uno de los elementos más innovadores de Tribu-CR será la incorporación de declaraciones prellenadas. Esta funcionalidad iniciará en 2025 con el Impuesto al Valor Agregado (IVA) y se alimentará de los datos generados por los comprobantes electrónicos."
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "El objetivo es facilitar el cumplimiento tributario, reducir errores y minimizar el tiempo invertido por los contribuyentes."
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "4. ¿Qué pasa con el impuesto sobre utilidades?"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Durante 2025, el impuesto sobre utilidades no se integrará al sistema de prellenado debido a que aún coexisten dos versiones de comprobantes electrónicos (4.3 y 4.4), lo que impide consolidar correctamente la información tributaria."
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "La Dirección General de Tributación planea implementar esta funcionalidad para utilidades en el periodo fiscal 2026, una vez unificada la versión de los comprobantes."
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "5. Un paso más hacia la transformación digital tributaria"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "La implementación de Tribu-CR representa un avance clave hacia la digitalización del sistema tributario en Costa Rica. Hacienda promete mayor transparencia, eficiencia y seguridad jurídica en los procesos, lo que podría beneficiar tanto a personas físicas como jurídicas."
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Es fundamental que los contribuyentes se informen y se capaciten sobre el uso de la nueva plataforma para garantizar una transición fluida."
+            },
+            {
+                "tipo": "cita",
+                "texto": "“Funte” — Ministerio de Hacienda de Costa Rica"
+            }
+    ],
         "video": "/ImagenNoticias/videoplayback.mp4",
         "fecha": "Junio 10, 2025",
         "link": "/noticias/4",
         "imagen": "/ImagenNoticias/TribuCR.png"
+    },
+    {
+        "id": 5,
+        "titulo": "Sociedades nuevas ya no tendrán razón social.",
+        "resumen": "Entra en vigor reforma que simplifica su constitución",
+        "imagen": "/ImagenNoticias/people-taking-part-business-event.jpg",
+        "fecha": "Junio 06, 2025",
+        "link": "/noticias/5",
+        "contenido": [
+            {
+                "tipo": "parrafo",
+                "texto": "Desde el 2 de junio de 2025, toda nueva sociedad anónima (S.A.) o sociedad de responsabilidad limitada (S.R.L.) constituida en Costa Rica ya no requerirá una razón social. Esta importante reforma fue implementada mediante la entrada en vigor de la Ley N.º 10.729, que modifica varios artículos del Código de Comercio."
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "La medida busca agilizar y modernizar el proceso de constitución de sociedades mercantiles regulares, eliminando trámites innecesarios y reduciendo costos para los nuevos empresarios."
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "¿Qué cambia con la Ley N.º 10.729?"
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "1. Identificación por cédula jurídica"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Ahora, el Registro Nacional asignará automáticamente un número de cédula jurídica a cada nueva sociedad, el cual será su único identificador legal."
+            },
+            {
+                "tipo": "lista",
+                "items": [
+                    "No se podrá proponer ni reservar una razón social al momento de constitución.",
+                    "Se eliminan rechazos por similitud o coincidencia de nombres previamente inscritos."
+                ] 
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "2. Excepciones a la reforma"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Este cambio no aplica a sociedades reguladas por leyes especiales, como aquellas supervisadas por:"
+            },
+            {
+                "tipo": "lista",
+                "items": [
+                    "SUGEF (entidades financieras)",
+                    "SUPEN (pensiones)",
+                    "SUGESE (seguros)"
+                ]
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Estas entidades sí seguirán requiriendo razón social, conforme a su normativa particular."
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "3. ¿Qué pasa con el nombre comercial?"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "Aunque ya no es obligatoria la razón social, las nuevas sociedades sí pueden utilizar un nombre comercial para operar públicamente. Sin embargo, es importante tener en cuenta que:"
+            },
+            {
+                "tipo": "lista",
+                "items": [
+                    "El nombre comercial no sustituye la cédula jurídica como identificación legal.",
+                    "Debe ser registrado aparte ante el Registro de Propiedad Industrial.",
+                    "Este registro protege legalmente el nombre y evita que terceros lo utilicen sin autorización."
+                ]
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "🔒 Registrar el nombre comercial es clave para proteger la identidad de su empresa."
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "Principales ventajas de la reforma"
+            },
+            {
+                "tipo": "lista",
+                "items": [
+                    "✅ Agiliza la constitución de sociedades.",
+                    "✅ Reduce costos, al eliminar la publicación en La Gaceta y el trámite de reserva de nombre.",
+                    "✅ Moderniza el proceso, alineándolo con prácticas internacionales que priorizan identificadores únicos sobre nombres legales."
+                ]
+            },
+            {
+                "tipo": "subtitulo",
+                "texto": "Asesoría para la constitución de sociedades bajo la nueva ley"
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "En BPOMICONTA estamos preparados para ayudarle en todo el proceso de constitución de sociedades bajo el nuevo marco legal. También podemos asesorarle en el registro de su nombre comercial y en el cumplimiento de requisitos adicionales según el giro del negocio."
+            },
+            {
+                "tipo": "parrafo",
+                "texto": "📩 ¿Tiene dudas sobre cómo le afecta esta reforma? Contáctenos hoy mismo. Estamos aquí para apoyarle."
+            }
+        ]
     }
 ]

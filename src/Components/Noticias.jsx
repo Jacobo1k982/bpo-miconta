@@ -18,11 +18,13 @@ const Noticias = () => {
                             className="bg-[#1B3A33] rounded-xl overflow-hidden shadow-lg hover:shadow-green-700 transition-shadow duration-300 flex flex-col"
                         >
                             {/* Imagen */}
-                            <img
-                                src={noticia.imagen}
-                                alt={noticia.titulo}
-                                className="w-full h-48 object-cover"
-                            />
+                            <div className="w-full aspect-[4/3] overflow-hidden">
+                                <img
+                                    src={noticia.imagen}
+                                    alt={noticia.titulo}
+                                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                                />
+                            </div>
 
                             <div className="p-5 flex flex-col justify-between flex-grow">
                                 <div>
