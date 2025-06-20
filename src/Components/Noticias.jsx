@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import noticiasData from '../data/noticias.json';
-import { FaArrowRight, FaFilePdf } from 'react-icons/fa';
+import { FaArrowRight, FaFilePdf, FaVideo } from 'react-icons/fa';
 
 const Noticias = () => {
     return (
@@ -17,11 +17,13 @@ const Noticias = () => {
                             key={noticia.id}
                             className="bg-[#1B3A33] rounded-xl overflow-hidden shadow-lg hover:shadow-green-700 transition-shadow duration-300 flex flex-col"
                         >
+                            {/* Imagen */}
                             <img
                                 src={noticia.imagen}
                                 alt={noticia.titulo}
                                 className="w-full h-48 object-cover"
                             />
+
                             <div className="p-5 flex flex-col justify-between flex-grow">
                                 <div>
                                     <p className="text-sm text-gray-400 mb-1">{noticia.fecha}</p>
@@ -29,7 +31,7 @@ const Noticias = () => {
                                     <p className="text-gray-300 text-sm mb-4">{noticia.resumen}</p>
                                 </div>
 
-                                {/* Botón dinámico */}
+                                {/* Botón según tipo */}
                                 {noticia.pdf ? (
                                     <a
                                         href={noticia.pdf}
@@ -46,6 +48,15 @@ const Noticias = () => {
                                     >
                                         Leer más <FaArrowRight className="w-4 h-4" />
                                     </Link>
+                                ) : noticia.video ? (
+                                    <a
+                                        href={noticia.video}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-green-400 font-medium flex items-center gap-2 hover:underline"
+                                    >
+                                        Ver video <FaVideo className="w-4 h-4" />
+                                    </a>
                                 ) : null}
                             </div>
                         </div>

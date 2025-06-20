@@ -22,5 +22,15 @@
         "imagen": "/ImagenNoticias/Foto-cp-35-2025.png",
         "fecha": "Junio 02, 2025",
         "pdf": "/ImagenNoticias/CP352025.pdf"
+    },
+    {
+        "id": 4,
+        "titulo": "Tribu-CR toma el control",
+        "resumen": "Así será el cambio de ATV a la nueva plataforma de Hacienda",
+        "contenido": "El Ministerio de Hacienda de Costa Rica ha anunciado un cambio significativo en la gestión tributaria del país: a partir del 4 de agosto de 2025, entrará en funcionamiento Tribu-CR, la nueva plataforma digital que reemplazará por completo a los sistemas actuales ATV (Administración Tributaria Virtual) y Trámite Virtual (Travi).",
+        "video": "/ImagenNoticias/videoplayback.mp4",
+        "fecha": "Junio 10, 2025",
+        "link": "/noticias/4",
+        "imagen": "/ImagenNoticias/TribuCR.png"
     }
 ]
