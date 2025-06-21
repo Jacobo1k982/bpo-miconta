@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "tipo": "titulo",
+        "texto": "¿Quiénes Somos?"
+    },
+    {
+        "id": 2,
+        "tipo": "parrafo",
+        "contenido": "En BPOMICONTA, somos una empresa especializada en la externalización de procesos contables, financieros y administrativos. Nuestro objetivo es proporcionar soluciones eficientes, confiables y personalizadas para pequeñas y medianas empresas."
+    },
+    {
+        "id": 2.1,
+        "tipo": "parrafo",
+        "contenido": "Desde el año 2019, hemos brindado servicios contables personalizados a pequeñas empresas, emprendedores y profesionales independientes. Somos una firma costarricense con un enfoque humano y una visión clara: ayudar a nuestros clientes a comprender sus finanzas, cumplir con sus obligaciones legales y tomar decisiones con mayor claridad."
+    },
+    {
+        "id": 2.2,
+        "tipo": "parrafo",
+        "contenido": "Nos especializamos en contabilidad financiera, guiándonos por las mejores prácticas y normativas vigentes, para garantizar registros precisos, informes claros y tranquilidad fiscal"
+    },
+    {
+        "id": 2.3,
+        "tipo": "parrafo",
+        "contenido": "En bpomiconta sabemos que la contabilidad no solo se trata de números, sino de comprender la historia financiera detrás de cada negocio. Trabajamos codo a codo con nuestros clientes, construyendo relaciones a largo plazo basadas en confianza, responsabilidad y atención personalizada."
+    },
+    {
+        "id": 3,
+        "tipo": "bloque",
+        "titulo": "Nuestra Misión",
+        "contenido": "Brindar servicios de contabilidad financiera confiables, personalizados y alineados con la normativa vigente, para apoyar a nuestros clientes en la gestión clara, ordenada y estratégica de sus finanzas"
+    },
+    {
+        "id": 4,
+        "tipo": "bloque",
+        "titulo": "Nuestra Visión",
+        "contenido": "Ser reconocidos como una firma de confianza en Costa Rica por nuestro profesionalismo, cercanía y compromiso con el crecimiento de cada uno de nuestros clientes."
+    },
+    {
+        "id": 5,
+        "tipo": "lista",
+        "titulo": "Nuestros Valores",
+        "items": [
+            " Compromiso: Cada cliente es una prioridad, y su éxito también es el nuestro.",
+            " Transparencia: Nos guiamos por la ética profesional y la claridad en cada informe.",
+            " Responsabilidad: Cumplimos con precisión y puntualidad.",
+            " Atención personalizada: Escuchamos, entendemos y actuamos según las necesidades reales.",
+            " Actualización constante: Nos mantenemos al día con cambios contables, fiscales y tecnológicos."
+        ]
+    },
+    {
+        "id": 6,
+        "tipo": "imagen",
+        "imagen": "/quienes-somos/vision-mision.jpg",
+        "alt": "Equipo de trabajo",
+        "activo": false
+    },
+    {
+        "id": 7,
+        "tipo": "video",
+        "titulo": "Conócenos en 1 minuto",
+        "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "activo": false
+    },
+    {
+        "id": 8,
+        "tipo": "link",
+        "titulo": "Ver más sobre nuestra historia",
+        "url": "https://www.bpomiconta.com/sobre-nosotros",
+        "activo": false
+    }
+]

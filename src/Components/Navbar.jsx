@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const links = [
         { name: "Inicio", to: "/" },
-        { name: "Sobre nosotros", to: "/about" },
+        { name: "Quiénes Somos", to: "/about" },
         { name: "Servicios", to: "/services" },
         { name: "Noticias", to: "/noticias" },
         { name: "Contáctenos", to: "/contact" },

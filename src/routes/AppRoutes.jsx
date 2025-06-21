@@ -9,6 +9,8 @@ const Hero = lazy(() => import("../Components/Hero.jsx"));
 const CarouselServicios = lazy(() => import("../Components/CarouselServicios.jsx"));
 const Noticias = lazy(() => import("../Components/Noticias.jsx"));
 const NoticiaDetalle = lazy(() => import("../page/NoticiaDetalle.jsx"));
+const QuienesSomos = lazy(() => import("../Components/QuienesSomos.jsx"));
+
 
 
 
@@ -29,7 +31,6 @@ const AppRoutes = () => {
                     <Route path="/" element={
                         <>
                             <Hero />
-                            <Noticias />
                             <CarouselServicios />
                         </>
                     } />
@@ -37,6 +38,7 @@ const AppRoutes = () => {
                     <Route path="/noticias/:id" element={<NoticiaDetalle />} />
                     <Route path="/hero" element={<Hero />} />
                     <Route path="/contact" element={<Contactanos />} />
+                    <Route path="/about" element={<QuienesSomos />} />
                 </Routes>
             </Layout>
         </Suspense>
