@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Contabilidad Financiera",
+        "descripcion": "Se centra en la preparación de estados financieros para uso externo, como inversionistas, bancos y autoridades fiscales."
+    },
+    {
+        "titulo": "Contabilidad Administrativa",
+        "descripcion": "Proporciona información a la gerencia para facilitar la toma de decisiones internas y el control de operaciones."
+    },
+    {
+        "titulo": "Contabilidad de Costos",
+        "descripcion": "Analiza y controla los costos de producción para mejorar la eficiencia y la rentabilidad."
+    },
+    {
+        "titulo": "Contabilidad Fiscal",
+        "descripcion": "Garantiza el cumplimiento de las obligaciones tributarias mediante el registro correcto de operaciones sujetas a impuestos."
+    },
+    {
+        "titulo": "Contabilidad Gubernamental",
+        "descripcion": "Registra y supervisa los recursos financieros en instituciones públicas, conforme a normativas legales."
+    },
+    {
+        "titulo": "Contabilidad Internacional",
+        "descripcion": "Adapta los principios contables a estándares internacionales (IFRS) para facilitar operaciones globales."
+    }
+]

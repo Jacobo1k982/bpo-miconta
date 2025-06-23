@@ -10,8 +10,7 @@ const CarouselServicios = lazy(() => import("../Components/CarouselServicios.jsx
 const Noticias = lazy(() => import("../Components/Noticias.jsx"));
 const NoticiaDetalle = lazy(() => import("../page/NoticiaDetalle.jsx"));
 const QuienesSomos = lazy(() => import("../Components/QuienesSomos.jsx"));
-
-
+const AsesoriaContable = lazy(() => import("../Components/AsesoriaContable.jsx"));
 
 
 const Loader = () => (
@@ -39,6 +38,7 @@ const AppRoutes = () => {
                     <Route path="/hero" element={<Hero />} />
                     <Route path="/contact" element={<Contactanos />} />
                     <Route path="/about" element={<QuienesSomos />} />
+                    <Route path="/AsesoriaContable" element={<AsesoriaContable />} />
                 </Routes>
             </Layout>
         </Suspense>
