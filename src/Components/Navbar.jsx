@@ -17,7 +17,7 @@ const Navbar = () => {
         { name: "Quiénes Somos", to: "/about" },
         {
             name: "Servicios", to: "/services", hasSubMenu: true, subMenu: [
-                { name: "Asesoría Contable", to: "/AsesoriaContable", image: "/Imagen/Navbar/close-up-people-working-office.jpg" },
+                { name: "Contabilidad", to: "/AsesoriaContable", image: "/Imagen/Navbar/close-up-people-working-office.jpg" },
                 { name: "Consultoría Financiera", to: "/services/consultoria-financiera", image: "/Imagen/Navbar/researchers-looking-alternative-energy-souces.jpg" },
                 { name: "Planificación Tributaria", to: "/services/planificacion-tributaria", image: "/Imagen/Navbar/calculator-magnifying-glass-table.jpg" },
             ]

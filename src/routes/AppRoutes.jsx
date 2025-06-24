@@ -3,6 +3,7 @@ import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "../Components/Layout";
 import Contactanos from "../Components/Contactanos.jsx";
+import FinanceDivider from "../page/FinanceDivider.jsx";
 
 // 👇 Lazy import
 const Hero = lazy(() => import("../Components/Hero.jsx"));
@@ -29,6 +30,7 @@ const AppRoutes = () => {
                 <Routes>
                     <Route path="/" element={
                         <>
+                            <FinanceDivider />
                             <Hero />
                             <CarouselServicios />
                         </>
