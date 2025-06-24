@@ -17,7 +17,10 @@ const Navbar = () => {
         { name: "Quiénes Somos", to: "/about" },
         {
             name: "Servicios", to: "/services", hasSubMenu: true, subMenu: [
-                { name: "Contabilidad", to: "/AsesoriaContable", image: "/Imagen/Navbar/close-up-people-working-office.jpg" },
+                { name: "Contabilidad de costos", to: "/AsesoriaContable", image: "/Imagen/Navbar/close-up-people-working-office.jpg" },
+                { name: "Contabilidad financiera", to: "/AsesoriaContable", image: "/Imagen/Navbar/close-up-people-working-office.jpg" },
+                { name: "Declaración de impuestos", to: "/AsesoriaContable", image: "/Imagen/Navbar/close-up-people-working-office.jpg" },
+                { name: "Certificación de ingresos", to: "/AsesoriaContable", image: "/Imagen/Navbar/close-up-people-working-office.jpg" },
                 { name: "Consultoría Financiera", to: "/services/consultoria-financiera", image: "/Imagen/Navbar/researchers-looking-alternative-energy-souces.jpg" },
                 { name: "Planificación Tributaria", to: "/services/planificacion-tributaria", image: "/Imagen/Navbar/calculator-magnifying-glass-table.jpg" },
             ]
@@ -99,12 +102,12 @@ const Navbar = () => {
                                 </NavLink>
 
                                 {desktopSubMenuVisible && (
-                                    <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[600px] p-4 bg-white rounded-lg shadow-xl flex gap-4 z-50 text-black">
+                                    <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[600px] p-4 bg-white rounded-lg shadow-xl flex flex-wrap gap-4 z-50 text-black max-w-[90vw]">
                                         {link.subMenu.map((item) => (
                                             <NavLink
                                                 key={item.to}
                                                 to={item.to}
-                                                className="w-1/4 hover:scale-105 transition-transform"
+                                                className="w-[140px] flex-shrink-0 hover:scale-105 transition-transform"
                                             >
                                                 <img
                                                     src={item.image}
@@ -116,6 +119,7 @@ const Navbar = () => {
                                         ))}
                                     </div>
                                 )}
+
                             </div>
                         ) : (
                             <NavLink
@@ -158,14 +162,18 @@ const Navbar = () => {
                                             <NavLink
                                                 key={item.to}
                                                 to={item.to}
-                                                className="flex items-center gap-2 text-white"
+                                                className="flex items-start gap-3 text-white"
                                                 onClick={() => {
                                                     setMenuOpen(false);
                                                     setSubMenuOpen(false);
                                                 }}
                                             >
-                                                <img src={item.image} alt={item.name} className="w-12 h-12 object-cover rounded-md" />
-                                                <span>{item.name}</span>
+                                                <img
+                                                    src={item.image}
+                                                    alt={item.name}
+                                                    className="w-12 h-12 object-cover rounded-md flex-shrink-0"
+                                                />
+                                                <span className="text-sm">{item.name}</span>
                                             </NavLink>
                                         ))}
                                     </div>

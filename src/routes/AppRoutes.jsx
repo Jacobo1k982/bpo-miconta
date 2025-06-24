@@ -30,8 +30,8 @@ const AppRoutes = () => {
                 <Routes>
                     <Route path="/" element={
                         <>
-                            <FinanceDivider />
                             <Hero />
+                            <FinanceDivider />
                             <CarouselServicios />
                         </>
                     } />

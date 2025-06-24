@@ -46,7 +46,7 @@ const Hero = () => {
 
     return (
         <div className="bg-[#0D2A22] text-white font-sans w-full">
-            <div className="text-center py-12 px-4 md:px-6">
+            <div className="text-center py-24 px-4 md:px-6">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-4">
                     Business Process Outsourcing MiConta
                 </h2>
@@ -79,7 +79,7 @@ const Hero = () => {
                 {success && <p className="text-green-400 mt-2 text-sm">{success}</p>}
             </div>
 
-            <div className="h-16 md:h-24 w-full bg-gradient-to-t from-green-null to-transparent" />
+            <div className="h-16 md:h-5 w-full bg-gradient-to-t from-green-null to-transparent" />
         </div>
     );
 };
