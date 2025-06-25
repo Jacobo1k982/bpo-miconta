@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Inicio",
+        "to": "/",
+        "icon": "FaHome"
+    },
+    {
+        "name": "Quiénes Somos",
+        "to": "/about",
+        "icon": "FaInfoCircle"
+    },
+    {
+        "name": "Servicios",
+        "to": "/services",
+        "icon": "FaConciergeBell",
+        "hasSubMenu": true,
+        "subMenu": [
+            {
+                "name": "Servicios contables",
+                "to": "/AsesoriaContable",
+                "image": "/Imagen/Navbar/servicioContable.jpg"
+            },
+            {
+                "name": "Contabilidad financiera",
+                "to": "/AsesoriaContable",
+                "image": "/Imagen/Navbar/close-up-people-working-office.jpg",
+                "children": [
+                    {
+                        "name": "Reportes financieros",
+                        "to": "/AsesoriaContable/reportes"
+                    },
+                    {
+                        "name": "Auditoría interna",
+                        "to": "/AsesoriaContable/auditoria"
+                    }
+                ]
+            },
+            {
+                "name": "Declaración de impuestos",
+                "to": "/AsesoriaContable",
+                "image": "/Imagen/Navbar/close-up-people-working-office.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Noticias",
+        "to": "/noticias",
+        "icon": "FaNewspaper"
+    },
+    {
+        "name": "Contáctenos",
+        "to": "/contact",
+        "icon": "FaEnvelope"
+    }
+]

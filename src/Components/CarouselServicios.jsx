@@ -1,18 +1,22 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
-import serviciosData from '../data/servicios.json';
 
-const CarouselServicios = () => {
+const CarouselServicios = ({
+    data = [],
+    titulo = 'Desbloquee la libertad financiera con decisiones inteligentes',
+    etiqueta = 'Nuestros servicios',
+    linkGeneral = '/servicios'
+}) => {
     const [current, setCurrent] = useState(0);
     const containerRef = useRef();
 
     useEffect(() => {
         const timer = setInterval(() => {
-            setCurrent((prev) => (prev + 1) % serviciosData.length);
+            setCurrent((prev) => (prev + 1) % data.length);
         }, 5000);
         return () => clearInterval(timer);
-    }, []);
+    }, [data.length]);
 
     useEffect(() => {
         if (containerRef.current) {
@@ -23,44 +27,44 @@ const CarouselServicios = () => {
         }
     }, [current]);
 
+    if (data.length === 0) return null;
+
     return (
         <div className="py-10 px-4 md:px-10">
             {/* Encabezado */}
             <div className="mb-6 flex justify-between items-center">
-                <span className="border px-4 py-1 rounded-full text-sm border-black">Nuestros servicios</span>
+                <span className="border px-4 py-1 rounded-full text-sm border-black">{etiqueta}</span>
                 <Link
-                    to="/servicios"
+                    to={linkGeneral}
                     className="bg-gradient-to-r from-lime-500 to-green-600 text-white px-5 py-2 rounded-full flex items-center gap-2 text-sm font-semibold"
                 >
-                    Todos los servicios <FaArrowUpRightFromSquare className="w-4 h-4" />
+                    Ver todos <FaArrowUpRightFromSquare className="w-4 h-4" />
                 </Link>
             </div>
 
             {/* Título */}
-            <h2 className="text-3xl md:text-4xl font-bold mb-10">
-                Desbloquea tu libertad financiera<br />Con decisiones inteligentes
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-10 whitespace-pre-line">{titulo}</h2>
 
-            {/* Carrusel en móvil - Rejilla en desktop */}
+            {/* Carrusel móvil */}
             <div className="md:hidden overflow-x-auto ocultar-scroll arrastrable" ref={containerRef}>
                 <div className="flex w-full snap-x snap-mandatory space-x-4">
-                    {serviciosData.map((servicio, index) => (
+                    {data.map((item, index) => (
                         <div
                             key={index}
                             className={`min-w-full snap-start p-6 rounded-2xl transition-all duration-500 ${current === index ? 'bg-[#0D2A22] text-white' : 'bg-gray-100 text-black'
                                 }`}
                         >
-                            <h3 className="text-lg font-semibold mb-2">{servicio.titulo}</h3>
-                            <p className="text-sm mb-4">{servicio.descripcion}</p>
+                            <h3 className="text-lg font-semibold mb-2">{item.titulo}</h3>
+                            <p className="text-sm mb-4">{item.descripcion}</p>
                             <div className="overflow-hidden rounded-xl mb-4">
                                 <img
-                                    src={servicio.imagen}
-                                    alt={servicio.titulo}
+                                    src={item.imagen}
+                                    alt={item.titulo}
                                     className="w-full h-48 object-cover"
                                 />
                             </div>
                             <Link
-                                to={servicio.link}
+                                to={item.link}
                                 className="w-10 h-10 rounded-full bg-green-600 text-white flex items-center justify-center hover:bg-green-700 transition"
                             >
                                 <FaArrowUpRightFromSquare />
@@ -70,25 +74,25 @@ const CarouselServicios = () => {
                 </div>
             </div>
 
-            {/* Rejilla solo en pantallas grandes */}
+            {/* Rejilla desktop */}
             <div className="hidden md:grid grid-cols-3 gap-6">
-                {serviciosData.map((servicio, index) => (
+                {data.map((item, index) => (
                     <div
                         key={index}
                         className={`p-6 rounded-2xl shadow-md transition-all duration-500 ${current === index ? 'bg-[#0D2A22] text-white' : 'bg-gray-100 text-black'
                             }`}
                     >
-                        <h3 className="text-lg font-semibold mb-2">{servicio.titulo}</h3>
-                        <p className="text-sm mb-4">{servicio.descripcion}</p>
+                        <h3 className="text-lg font-semibold mb-2">{item.titulo}</h3>
+                        <p className="text-sm mb-4">{item.descripcion}</p>
                         <div className="overflow-hidden rounded-xl mb-4">
                             <img
-                                src={servicio.imagen}
-                                alt={servicio.titulo}
+                                src={item.imagen}
+                                alt={item.titulo}
                                 className="w-full h-48 object-cover"
                             />
                         </div>
                         <Link
-                            to={servicio.link}
+                            to={item.link}
                             className="w-10 h-10 rounded-full bg-green-600 text-white flex items-center justify-center hover:bg-green-700 transition"
                         >
                             <FaArrowUpRightFromSquare />
@@ -99,7 +103,7 @@ const CarouselServicios = () => {
 
             {/* Indicadores */}
             <div className="flex justify-center mt-6 gap-2">
-                {serviciosData.map((_, index) => (
+                {data.map((_, index) => (
                     <span
                         key={index}
                         onClick={() => setCurrent(index)}

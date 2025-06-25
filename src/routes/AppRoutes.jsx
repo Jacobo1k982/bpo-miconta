@@ -7,11 +7,11 @@ import FinanceDivider from "../page/FinanceDivider.jsx";
 
 // 👇 Lazy import
 const Hero = lazy(() => import("../Components/Hero.jsx"));
-const CarouselServicios = lazy(() => import("../Components/CarouselServicios.jsx"));
 const Noticias = lazy(() => import("../Components/Noticias.jsx"));
 const NoticiaDetalle = lazy(() => import("../page/NoticiaDetalle.jsx"));
 const QuienesSomos = lazy(() => import("../Components/QuienesSomos.jsx"));
 const AsesoriaContable = lazy(() => import("../Components/AsesoriaContable.jsx"));
+const OtrosServicios = lazy(() => import("../page/otrosServicios.jsx"));
 
 
 const Loader = () => (
@@ -32,7 +32,7 @@ const AppRoutes = () => {
                         <>
                             <Hero />
                             <FinanceDivider />
-                            <CarouselServicios />
+                            <OtrosServicios />
                         </>
                     } />
                     <Route path="/noticias" element={<Noticias />} />
