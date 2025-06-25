@@ -69,7 +69,7 @@ const Hero = () => {
                     />
                     <button
                         type="submit"
-                        className="bg-gradient-to-r from-lime-500 to-green-600 px-6 py-3 text-white font-semibold text-sm"
+                        className="bg-gradient-to-r from-lime-[#00e0c7] to-[#00e0c7] px-6 py-3 text-white font-semibold text-sm"
                     >
                         Ver todo →
                     </button>

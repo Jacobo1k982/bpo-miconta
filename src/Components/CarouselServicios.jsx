@@ -36,7 +36,7 @@ const CarouselServicios = ({
                 <span className="border px-4 py-1 rounded-full text-sm border-black">{etiqueta}</span>
                 <Link
                     to={linkGeneral}
-                    className="bg-gradient-to-r from-lime-500 to-green-600 text-white px-5 py-2 rounded-full flex items-center gap-2 text-sm font-semibold"
+                    className="bg-gradient-to-r from-gray-700 to-[#00e0c7] text-white px-5 py-2 rounded-full flex items-center gap-2 text-sm font-semibold"
                 >
                     Ver todos <FaArrowUpRightFromSquare className="w-4 h-4" />
                 </Link>
@@ -51,7 +51,7 @@ const CarouselServicios = ({
                     {data.map((item, index) => (
                         <div
                             key={index}
-                            className={`min-w-full snap-start p-6 rounded-2xl transition-all duration-500 ${current === index ? 'bg-[#0D2A22] text-white' : 'bg-gray-100 text-black'
+                            className={`min-w-full snap-start p-6 rounded-2xl transition-all duration-500 ${current === index ? 'bg-[#00e0c7] text-white' : 'bg-gray-100 text-black'
                                 }`}
                         >
                             <h3 className="text-lg font-semibold mb-2">{item.titulo}</h3>
@@ -65,7 +65,7 @@ const CarouselServicios = ({
                             </div>
                             <Link
                                 to={item.link}
-                                className="w-10 h-10 rounded-full bg-green-600 text-white flex items-center justify-center hover:bg-green-700 transition"
+                                className="w-10 h-10 rounded-full bg-[#00e0c7] text-white flex items-center justify-center hover:bg-[#00e0c7] transition"
                             >
                                 <FaArrowUpRightFromSquare />
                             </Link>
@@ -79,7 +79,7 @@ const CarouselServicios = ({
                 {data.map((item, index) => (
                     <div
                         key={index}
-                        className={`p-6 rounded-2xl shadow-md transition-all duration-500 ${current === index ? 'bg-[#0D2A22] text-white' : 'bg-gray-100 text-black'
+                        className={`p-6 rounded-2xl shadow-md transition-all duration-500 ${current === index ? 'bg-[#0b9383] text-white' : 'bg-gray-100 text-black'
                             }`}
                     >
                         <h3 className="text-lg font-semibold mb-2">{item.titulo}</h3>
@@ -93,7 +93,7 @@ const CarouselServicios = ({
                         </div>
                         <Link
                             to={item.link}
-                            className="w-10 h-10 rounded-full bg-green-600 text-white flex items-center justify-center hover:bg-green-700 transition"
+                            className="w-10 h-10 rounded-full bg-[#00e0c7] text-white flex items-center justify-center hover:bg-[#019281] transition"
                         >
                             <FaArrowUpRightFromSquare />
                         </Link>
@@ -107,7 +107,7 @@ const CarouselServicios = ({
                     <span
                         key={index}
                         onClick={() => setCurrent(index)}
-                        className={`w-3 h-3 rounded-full cursor-pointer transition-all ${current === index ? 'bg-green-600' : 'bg-gray-300'
+                        className={`w-3 h-3 rounded-full cursor-pointer transition-all ${current === index ? 'bg-[#00e0c7]' : 'bg-gray-300'
                             }`}
                     ></span>
                 ))}

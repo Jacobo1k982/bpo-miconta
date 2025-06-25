@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import { FaBars, FaTimes, FaChevronDown } from "react-icons/fa";
-import menuData from "../data/menuData.json";
+import menuData from "../data/navbar.json";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -39,7 +39,7 @@ const Navbar = () => {
     }, []);
 
     const getLinkClass = ({ isActive }) =>
-        `transition-colors ${isActive ? "text-green-400 font-semibold" : "hover:text-green-400 text-white"}`;
+        `transition-colors ${isActive ? "text-[#00e0c7] font-semibold" : "hover:text-[#00e0c7] text-white"}`;
 
     const handleMouseEnter = (index) => {
         clearTimeout(hoverTimeout.current);

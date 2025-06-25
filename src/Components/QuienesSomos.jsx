@@ -14,7 +14,7 @@ const QuienesSomos = () => {
                             return (
                                 <h2
                                     key={item.id}
-                                    className="text-3xl md:text-4xl font-bold text-center text-green-400"
+                                    className="text-3xl md:text-4xl font-bold text-center text-[#00e0c7]"
                                 >
                                     {item.texto}
                                 </h2>
@@ -36,7 +36,7 @@ const QuienesSomos = () => {
                                     key={item.id}
                                     className="bg-[#1B3A33] p-6 rounded-xl shadow-lg"
                                 >
-                                    <h3 className="text-xl font-semibold text-green-400 mb-3 text-justify">
+                                    <h3 className="text-xl font-semibold text-[#00e0c7] mb-3 text-justify">
                                         {item.titulo}
                                     </h3>
                                     <p className="text-gray-300 text-sm leading-relaxed text-justify">
@@ -51,7 +51,7 @@ const QuienesSomos = () => {
                                     key={item.id}
                                     className="bg-[#1B3A33] p-6 rounded-xl shadow-lg"
                                 >
-                                    <h3 className="text-xl font-semibold text-green-400 mb-3 text-justify">
+                                    <h3 className="text-xl font-semibold text-[#00e0c7] mb-3 text-justify">
                                         {item.titulo}
                                     </h3>
                                     <ul className="text-gray-300 text-sm list-disc list-inside space-y-1 text-justify">

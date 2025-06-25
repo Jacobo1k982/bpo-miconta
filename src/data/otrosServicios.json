@@ -9,7 +9,8 @@
     "titulo": "Gestión de Inventarios",
     "descripcion": "Servicio de gestión de inventarios",
     "imagen": "/Imagen/Navbar/taking-notes.jpg",
-    "fondo": "bg-[#0D2A22] text-white"
+    "fondo": "bg-[#0D2A22] text-white",
+    "url": "/inventario"
   },
   {
     "titulo": "Registro de marca",

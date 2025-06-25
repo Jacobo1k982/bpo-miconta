@@ -15,7 +15,7 @@ const Noticias = () => {
                     {noticiasData.map((noticia) => (
                         <div
                             key={noticia.id}
-                            className="bg-[#1B3A33] rounded-xl overflow-hidden shadow-lg hover:shadow-green-700 transition-shadow duration-300 flex flex-col"
+                            className="bg-[#1B3A33] rounded-xl overflow-hidden shadow-lg hover:shadow-[#00e0c7] transition-shadow duration-300 flex flex-col"
                         >
                             {/* Imagen */}
                             <div className="w-full aspect-[4/3] overflow-hidden">
@@ -39,14 +39,14 @@ const Noticias = () => {
                                         href={noticia.pdf}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-green-400 font-medium flex items-center gap-2 hover:underline"
+                                        className="text-[#00e0c7] font-medium flex items-center gap-2 hover:underline"
                                     >
                                         Ver documento <FaFilePdf className="w-4 h-4" />
                                     </a>
                                 ) : noticia.link ? (
                                     <Link
                                         to={noticia.link}
-                                        className="text-green-400 font-medium flex items-center gap-2 hover:underline"
+                                        className="text-[#00e0c7] font-medium flex items-center gap-2 hover:underline"
                                     >
                                         Leer más <FaArrowRight className="w-4 h-4" />
                                     </Link>
@@ -55,7 +55,7 @@ const Noticias = () => {
                                         href={noticia.video}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-green-400 font-medium flex items-center gap-2 hover:underline"
+                                        className="text-[#00e0c7] font-medium flex items-center gap-2 hover:underline"
                                     >
                                         Ver video <FaVideo className="w-4 h-4" />
                                     </a>

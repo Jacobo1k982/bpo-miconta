@@ -45,14 +45,14 @@ const Contactanos = () => {
                                 name="nombre"
                                 placeholder="Nombre"
                                 required
-                                className="bg-transparent border border-green-600 px-4 py-2 rounded text-white text-sm outline-none"
+                                className="bg-transparent border border-[#00e0c7] px-4 py-2 rounded text-white text-sm outline-none"
                             />
                             <input
                                 type="email"
                                 name="email"
                                 placeholder="Correo electrónico"
                                 required
-                                className="bg-transparent border border-green-600 px-4 py-2 rounded text-white text-sm outline-none"
+                                className="bg-transparent border border-[#00e0c7] px-4 py-2 rounded text-white text-sm outline-none"
                             />
                         </div>
 
@@ -61,7 +61,7 @@ const Contactanos = () => {
                             name="asunto"
                             placeholder="Asunto"
                             required
-                            className="bg-transparent border border-green-600 px-4 py-2 w-full rounded text-white text-sm outline-none"
+                            className="bg-transparent border border-[#00e0c7] px-4 py-2 w-full rounded text-white text-sm outline-none"
                         />
 
                         <textarea
@@ -69,12 +69,12 @@ const Contactanos = () => {
                             name="mensaje"
                             placeholder="Mensaje"
                             required
-                            className="bg-transparent border border-green-600 px-4 py-2 w-full rounded text-white text-sm outline-none resize-none"
+                            className="bg-transparent border border-[#00e0c7] px-4 py-2 w-full rounded text-white text-sm outline-none resize-none"
                         ></textarea>
 
                         <button
                             type="submit"
-                            className="bg-gradient-to-r from-green-500 to-green-700 px-6 py-2 text-white font-semibold rounded text-sm flex items-center gap-2 justify-center hover:scale-105 transition-transform"
+                            className="bg-gradient-to-r from-[#00e0c7] to-[#019281] px-6 py-2 text-white font-semibold rounded text-sm flex items-center gap-2 justify-center hover:scale-105 transition-transform"
                         >
                             <FaWhatsapp className="text-lg" />
                             Enviar por WhatsApp

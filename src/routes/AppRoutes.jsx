@@ -12,13 +12,15 @@ const NoticiaDetalle = lazy(() => import("../page/NoticiaDetalle.jsx"));
 const QuienesSomos = lazy(() => import("../Components/QuienesSomos.jsx"));
 const AsesoriaContable = lazy(() => import("../Components/AsesoriaContable.jsx"));
 const OtrosServicios = lazy(() => import("../page/otrosServicios.jsx"));
+const GestionInventario = lazy(() => import("../Components/GestionInventario.jsx"));
+
 
 
 const Loader = () => (
     <div className="flex items-center justify-center h-screen bg-[#0D2A22]">
         <div className="flex flex-col items-center gap-4">
-            <div className="w-10 h-10 border-4 border-green-400 border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-white text-sm">Cargando contenido...</p>
+            <div className="w-10 h-10 border-4 border-[#00e0c7] border-t-transparent rounded-full animate-spin"></div>
+            <p className="text-[#00e0c7] text-sm">Cargando contenido...</p>
         </div>
     </div>
 );
@@ -41,6 +43,7 @@ const AppRoutes = () => {
                     <Route path="/contact" element={<Contactanos />} />
                     <Route path="/about" element={<QuienesSomos />} />
                     <Route path="/AsesoriaContable" element={<AsesoriaContable />} />
+                    <Route path="/inventario" element={<GestionInventario />} />
                 </Routes>
             </Layout>
         </Suspense>

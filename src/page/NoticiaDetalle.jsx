@@ -19,7 +19,7 @@ const NoticiaDetalle = () => {
         <div className="bg-[#0D2A22] text-white px-4 md:px-10 py-12 font-sans min-h-screen">
             <div className="max-w-3xl mx-auto">
                 {/* Volver */}
-                <Link to="/noticias" className="flex items-center text-green-400 gap-2 hover:underline mb-6">
+                <Link to="/noticias" className="flex items-center text-[#00e0c7] gap-2 hover:underline mb-6">
                     <FaArrowLeft /> Volver a noticias
                 </Link>
 
@@ -43,7 +43,7 @@ const NoticiaDetalle = () => {
                     switch (bloque.tipo) {
                         case 'subtitulo':
                             return (
-                                <h3 key={index} className="text-lg md:text-xl font-semibold text-green-400 mb-2 mt-6">
+                                <h3 key={index} className="text-lg md:text-xl font-semibold text-[#00e0c7] mb-2 mt-6">
                                     {bloque.texto}
                                 </h3>
                             );
@@ -65,7 +65,7 @@ const NoticiaDetalle = () => {
                             return (
                                 <blockquote
                                     key={index}
-                                    className="border-l-4 border-green-500 pl-4 italic text-gray-400 mb-4"
+                                    className="border-l-4 border-[#00e0c7] pl-4 italic text-gray-400 mb-4"
                                 >
                                     {bloque.texto}
                                 </blockquote>
