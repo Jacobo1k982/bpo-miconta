@@ -9,14 +9,14 @@ const NoticiaDetalle = () => {
 
     if (!noticia) {
         return (
-            <div className="bg-[#0D2A22] text-white h-screen flex items-center justify-center">
+            <div className="text-white h-screen flex items-center justify-center">
                 <p className="text-lg">Noticia no encontrada.</p>
             </div>
         );
     }
 
     return (
-        <div className="bg-[#0D2A22] text-white px-4 md:px-10 py-12 font-sans min-h-screen">
+        <div className="text-white px-4 md:px-10 py-12 font-sans min-h-screen">
             <div className="max-w-3xl mx-auto">
                 {/* Volver */}
                 <Link to="/noticias" className="flex items-center text-[#00e0c7] gap-2 hover:underline mb-6">
@@ -82,7 +82,7 @@ const NoticiaDetalle = () => {
                             href={noticia.pdf}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"
+                            className="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-800 text-white px-4 py-2 rounded"
                         >
                             <FaFilePdf /> Ver documento PDF
                         </a>

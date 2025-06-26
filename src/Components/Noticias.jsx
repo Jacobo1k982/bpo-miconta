@@ -15,7 +15,7 @@ const Noticias = () => {
                     {noticiasData.map((noticia) => (
                         <div
                             key={noticia.id}
-                            className="bg-[#1B3A33] rounded-xl overflow-hidden shadow-lg hover:shadow-[#00e0c7] transition-shadow duration-300 flex flex-col"
+                            className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-[#00e0c7] transition-shadow duration-300 flex flex-col"
                         >
                             {/* Imagen */}
                             <div className="w-full aspect-[4/3] overflow-hidden">

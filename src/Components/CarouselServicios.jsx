@@ -79,7 +79,7 @@ const CarouselServicios = ({
                 {data.map((item, index) => (
                     <div
                         key={index}
-                        className={`p-6 rounded-2xl shadow-md transition-all duration-500 ${current === index ? 'bg-[#0b9383] text-white' : 'bg-gray-100 text-black'
+                        className={`p-6 rounded-2xl shadow-md transition-all duration-500 ${current === index ? 'bg-[#0b9383] text-white' : 'bg-gray-800 text-black'
                             }`}
                     >
                         <h3 className="text-lg font-semibold mb-2">{item.titulo}</h3>

@@ -34,7 +34,7 @@ const QuienesSomos = () => {
                             return (
                                 <div
                                     key={item.id}
-                                    className="p-6 rounded-xl shadow-lg"
+                                    className=" bg-gray-800 p-6 rounded-xl shadow-lg"
                                 >
                                     <h3 className="text-xl font-semibold text-[#00e0c7] mb-3 text-justify">
                                         {item.titulo}
@@ -49,7 +49,7 @@ const QuienesSomos = () => {
                             return (
                                 <div
                                     key={item.id}
-                                    className="p-6 rounded-xl shadow-lg"
+                                    className="bg-gray-800 p-6 rounded-xl shadow-lg"
                                 >
                                     <h3 className="text-xl font-semibold text-[#00e0c7] mb-3 text-justify">
                                         {item.titulo}

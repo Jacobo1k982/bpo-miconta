@@ -6,8 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'fondo-principal': "gray-900",
+      },
       backgroundImage: {
-        'fondo-principal': "linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%)",
+        'fondo-secundario': "gray-700",
       }
     },
   },

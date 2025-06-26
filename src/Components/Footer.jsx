@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
 
             {/* Gradiente inferior */}
-            <div className="h-10 md:h-32 w-full bg-gradient-to-t from-green-900 to-transparent" />
+            <div className="h-10 md:h-32 w-full bg-gradient-to-t to-transparent" />
         </footer>
     );
 };
