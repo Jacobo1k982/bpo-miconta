@@ -1,11 +1,11 @@
 import React from 'react';
 import CarouselServicios from '../Components/CarouselServicios.jsx';
-import OtrosServiciosData from '../data/otrosServicios.json';
+import otrosServiciosData from '../data/otrosServicios.json';
 
 const OtrosServicios = () => {
     return (
         <CarouselServicios
-            data={OtrosServiciosData}
+            data={otrosServiciosData}
             titulo="Desbloquee la libertad financiera con decisiones inteligentes"
             etiqueta="Contabilidad"
             linkGeneral="/"
