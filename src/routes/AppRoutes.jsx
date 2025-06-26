@@ -11,7 +11,7 @@ const Noticias = lazy(() => import("../Components/Noticias.jsx"));
 const NoticiaDetalle = lazy(() => import("../page/NoticiaDetalle.jsx"));
 const QuienesSomos = lazy(() => import("../Components/QuienesSomos.jsx"));
 const AsesoriaContable = lazy(() => import("../Components/AsesoriaContable.jsx"));
-const OtrosServicios = lazy(() => import("../page/otrosServicios.jsx"));
+const OtrosServicios = lazy(() => import("../page/OtrosServicios.jsx"));
 const GestionInventario = lazy(() => import("../Components/GestionInventario.jsx"));
 
 
