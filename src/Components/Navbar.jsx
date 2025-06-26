@@ -59,8 +59,8 @@ const Navbar = () => {
 
     return (
         <header className={`px-4 md:px-6 py-4 sticky top-0 z-50 backdrop-blur-md transition-all duration-300 ${scrolled
-            ? "bg-[#0D2A22]/100 shadow-md"
-            : "bg-[#0D2A22]/90 shadow-none"
+            ? "bg-/100 shadow-md"
+            : "bg-/90 shadow-none"
             }`}>
             <div className="flex justify-between items-center">
                 <NavLink to="/" className="flex items-center gap-2">

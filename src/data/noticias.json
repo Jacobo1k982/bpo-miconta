@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "titulo": "Gobierno marca un hito en la política social y fiscal del país",
+        "resumen": " IMPORTANTE PASO PARA FORTALECER EL SISTEMA NACIONAL",
+        "imagen": "/ImagenNoticias/CP292025.png",
+        "fecha": "Junio 25, 2025",
+        "pdf": "/ImagenNoticias/CP29-2025.pdf"
+    },
+    {
+        "id": 1.1,
         "titulo": "Costa Rica avanza 2025",
         "resumen": "Costa Rica avanza hacia una mayor resiliencia climática y financiera con el apoyo que Global Shield ofrecerá al país",
         "imagen": "/ImagenNoticias/foto-cp-12-jun2025.png",

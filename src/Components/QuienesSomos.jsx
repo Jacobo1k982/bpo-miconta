@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const QuienesSomos = () => {
     return (
-        <section className="bg-[#0D2A22] text-white font-sans px-4 md:px-10 py-16 min-h-screen">
+        <section className="text-white font-sans px-4 md:px-10 py-16 min-h-screen">
             <div className="max-w-6xl mx-auto space-y-10">
                 {data.map((item) => {
                     if (item.activo === false) return null; // Ignora elementos deshabilitados
@@ -34,7 +34,7 @@ const QuienesSomos = () => {
                             return (
                                 <div
                                     key={item.id}
-                                    className="bg-[#1B3A33] p-6 rounded-xl shadow-lg"
+                                    className="p-6 rounded-xl shadow-lg"
                                 >
                                     <h3 className="text-xl font-semibold text-[#00e0c7] mb-3 text-justify">
                                         {item.titulo}
@@ -49,7 +49,7 @@ const QuienesSomos = () => {
                             return (
                                 <div
                                     key={item.id}
-                                    className="bg-[#1B3A33] p-6 rounded-xl shadow-lg"
+                                    className="p-6 rounded-xl shadow-lg"
                                 >
                                     <h3 className="text-xl font-semibold text-[#00e0c7] mb-3 text-justify">
                                         {item.titulo}

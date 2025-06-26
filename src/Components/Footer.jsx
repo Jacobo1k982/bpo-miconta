@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube, FaWhatsapp } from 'rea
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0D2A22] text-white font-sans w-full rounded-t-xl overflow-hidden mt-10">
+        <footer className="text-white font-sans w-full rounded-t-xl overflow-hidden mt-10">
             {/* Redes y Navegación */}
             <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-6 py-6 gap-6">
                 {/* Logo */}

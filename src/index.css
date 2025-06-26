@@ -29,3 +29,8 @@
 .animate-marquee {
     animation: marquee 25s linear infinite;
 }
+
+body {
+  background-image: linear-gradient(180deg, #081020, #081424, #00303d, #004f48, #025348);
+}
+

@@ -45,7 +45,7 @@ const Hero = () => {
     };
 
     return (
-        <div className="bg-[#0D2A22] text-white font-sans w-full">
+        <div className="text-white font-sans w-full">
             <div className="text-center py-24 px-4 md:px-6">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-4">
                     Business Process Outsourcing MiConta
@@ -57,7 +57,7 @@ const Hero = () => {
                 {/* Formulario responsive */}
                 <form
                     onSubmit={handleSubmit}
-                    className="flex flex-col sm:flex-row max-w-md mx-auto bg-[#1B3A33] rounded-xl overflow-hidden shadow-lg"
+                    className="flex flex-col sm:flex-row max-w-md mx-auto bg-[#018676] rounded-xl overflow-hidden shadow-lg"
                 >
                     <input
                         type="email"
@@ -74,9 +74,8 @@ const Hero = () => {
                         Ver todo →
                     </button>
                 </form>
-
                 {error && <p className="text-red-400 mt-2 text-sm">{error}</p>}
-                {success && <p className="text-green-400 mt-2 text-sm">{success}</p>}
+                {success && <p className="text-[#00e0c7] mt-2 text-sm">{success}</p>}
             </div>
 
             <div className="h-16 md:h-5 w-full bg-gradient-to-t from-green-null to-transparent" />

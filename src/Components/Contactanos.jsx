@@ -25,7 +25,7 @@ const Contactanos = () => {
     };
 
     return (
-        <section className="bg-[#0D2A22] text-white px-4 py-12 md:px-8">
+        <section className="text-white px-4 py-12 md:px-8">
             <div className="max-w-5xl mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Agendar asesoría gratuita</h2>
 

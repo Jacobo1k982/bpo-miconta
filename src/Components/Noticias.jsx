@@ -5,7 +5,7 @@ import { FaArrowRight, FaFilePdf, FaVideo } from 'react-icons/fa';
 
 const Noticias = () => {
     return (
-        <section className="bg-[#0D2A22] text-white font-sans px-4 md:px-10 py-10 min-h-screen">
+        <section className="text-white font-sans px-4 md:px-10 py-10 min-h-screen">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
                     Noticias recientes
