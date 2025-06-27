@@ -146,7 +146,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             {menuOpen && (
-                <div className="md:hidden mt-4 flex flex-col gap-4 text-sm bg-[#1A3C31] p-4 rounded-lg shadow-lg">
+                <div className="md:hidden mt-4 flex flex-col gap-4 text-sm bg-gray-700/35 p-4 rounded-lg shadow-lg">
                     {menuData.map((link, index) =>
                         link.hasSubMenu ? (
                             <div key={link.to} ref={subMenuRef}>

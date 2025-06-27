@@ -57,7 +57,7 @@ const Hero = () => {
                 {/* Formulario responsive */}
                 <form
                     onSubmit={handleSubmit}
-                    className="flex flex-col sm:flex-row max-w-md mx-auto bg-[#018676] rounded-xl overflow-hidden shadow-lg"
+                    className="flex flex-col sm:flex-row max-w-md mx-auto from-[#009c8c] bg-gray-800 rounded-xl overflow-hidden shadow-lg"
                 >
                     <input
                         type="email"
@@ -69,7 +69,7 @@ const Hero = () => {
                     />
                     <button
                         type="submit"
-                        className="bg-gradient-to-r from-lime-[#00e0c7] to-[#00e0c7] px-6 py-3 text-white font-semibold text-sm"
+                        className="bg-gradient-to-r from-lime-[#00e0c7] px-6 py-3 text-white font-semibold text-sm"
                     >
                         Ver todo →
                     </button>

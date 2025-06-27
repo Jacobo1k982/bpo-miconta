@@ -32,7 +32,7 @@ const Contactanos = () => {
                 <div className="grid md:grid-cols-2 gap-10">
                     {/* Información omitida para brevedad, mantenla si ya la tienes */}
 
-                    <form onSubmit={handleSubmit} className="bg-green-900 p-6 rounded-xl space-y-4 shadow-lg">
+                    <form onSubmit={handleSubmit} className="bg-gray-800 p-6 rounded-xl space-y-4 shadow-lg">
                         {enviado && (
                             <div className="bg-green-600 text-white text-sm px-4 py-2 rounded text-center">
                                 ¡Mensaje preparado para enviar por WhatsApp!
