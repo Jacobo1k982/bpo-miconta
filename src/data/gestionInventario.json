@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "FaTruckLoading",
+        "titulo": "Recepción de Productos",
+        "descripcion": "Verificamos cantidades, estado y documentos. Luego, registramos la entrada al sistema para mantener el control desde el primer momento."
+    },
+    {
+        "icon": "FaClipboardList",
+        "titulo": "Registro y Clasificación",
+        "descripcion": "Asignamos códigos únicos (SKU), categorizamos los productos y los ingresamos al sistema digital para control en tiempo real."
+    },
+    {
+        "icon": "FaWarehouse",
+        "titulo": "Almacenamiento Estratégico",
+        "descripcion": "Ubicamos productos según rotación, tamaño o fragilidad, aplicando el método FIFO para salidas ordenadas."
+    },
+    {
+        "icon": "FaBoxes",
+        "titulo": "Monitoreo y Control",
+        "descripcion": "Monitoreo constante del stock, alertas automáticas, y seguimiento de productos vencidos o con baja rotación."
+    },
+    {
+        "icon": "FaCheckCircle",
+        "titulo": "Salida de Productos",
+        "descripcion": "Cada producto que sale del inventario queda registrado, permitiendo trazabilidad total y actualización automática del sistema."
+    },
+    {
+        "icon": "FaChartLine",
+        "titulo": "Auditorías y Análisis",
+        "descripcion": "Realizamos inventarios físicos, comparamos datos digitales y extraemos métricas para mejorar continuamente."
+    }
+]

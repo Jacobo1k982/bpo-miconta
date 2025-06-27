@@ -3,19 +3,21 @@
     "titulo": "Sistemas contables y facturación",
     "descripcion": "Herramientas para buenas prácticas de negocio ",
     "imagen": "/Imagen/Navbar/close-up-baker-bakery-shop.jpg",
-    "fondo": "bg-gray-100"
+    "fondo": "bg-gray-100",
+    "link": "/sistemas-contables"
   },
   {
     "titulo": "Gestión de Inventarios",
     "descripcion": "Servicio de gestión de inventarios",
     "imagen": "/Imagen/Navbar/taking-notes.jpg",
     "fondo": "bg-[#0D2A22] text-white",
-    "url": "/inventario"
+    "link": "/inventario"
   },
   {
     "titulo": "Registro de marca",
     "descripcion": "Gestión de registro de marca",
     "imagen": "/Imagen/Navbar/property-day.jpg",
-    "fondo": "bg-gray-100"
+    "fondo": "bg-gray-100",
+    "link": "/registro-marca"
   }
 ]

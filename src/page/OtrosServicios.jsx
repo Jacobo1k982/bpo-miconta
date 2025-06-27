@@ -8,7 +8,7 @@ const OtrosServicios = () => {
             data={otrosServiciosData}
             titulo="Desbloquee la libertad financiera con decisiones inteligentes"
             etiqueta="Contabilidad"
-            linkGeneral="/"
+            linkGeneral="/inventario"
         />
     );
 };
