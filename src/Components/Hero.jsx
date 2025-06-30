@@ -46,9 +46,9 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
 
                 {/* Texto */}
-                <div className="md:w-1/2 text-center md:text-left">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                        Optimiza tu Contabilidad <br /> con <span className="text-[#00e0c7]">MiConta</span>
+                <div className="md:w-1/1 text-center md:text-left">
+                    <h1 className="text-4xl md:text-5xl font-semibold mb-6 leading-tight">
+                        Business Process Outsourcing <br /> <span className="text-[#00e0c7]">MiConta</span>
                     </h1>
                     <p className="text-gray-300 text-lg mb-8">
                         Externaliza tus procesos contables y financieros con expertos. Más enfoque en tu negocio, menos preocupaciones fiscales.
