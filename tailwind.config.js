@@ -14,20 +14,20 @@ export default {
       },
       keyframes: {
         fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
+          '0%': { opacity: 0, transform: 'translateY(10px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
+        colors: {
+          'fondo-principal': '#111827', // gris oscuro (gray-900)
+        },
+        backgroundImage: {
+          'fondo-secundario': 'linear-gradient(to right, #1f2937, #374151)', // simulando gray-700 gradient
         },
       },
-      colors: {
-        'fondo-principal': '#111827', // gris oscuro (gray-900)
-      },
-      backgroundImage: {
-        'fondo-secundario': 'linear-gradient(to right, #1f2937, #374151)', // simulando gray-700 gradient
       },
     },
-  },
-  plugins: [
-    forms,
-    typography,
-  ],
-};
+    plugins: [
+      forms,
+      typography,
+    ],
+  };
